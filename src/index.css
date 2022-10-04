@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html { 
+    background: url("../public/bg.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], input[type=password] {
+    font-size: 20px;
+    width: 100%;
+    padding: 22px 20px;
+    margin: 11px 0;
+    display: inline-block;
+    background-color: #2B5C96;
+    color: #ECEFFA;
+    border: 2px solid #ECEFFA;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 475px;
+    margin: auto;
+    padding: 18vh 50px 0 50px;
+}
+
+.img_container {
+    text-align: center;
+    padding: 0 0 25px 0;
+}
+
+img.avatar {
+    border: 2px solid black;
+    width: 45%;
+    border-radius: 50%;
+}
+
+a {
+    color: #ECEFFA;
+    font-size: 22px;
+    text-decoration: none;
+    float: left;
+    margin: 15px 0 0 0;
+}
+
+.text-link {
+    margin-top: 15px;
+    float: right;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    background-color: #ECEFFA;
+    color: #2B5C96;
+    margin-top: 55px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 3px 3px black;
+}
+
+::placeholder { 
+    color: #ECEFFA;
+    opacity: 1;
 }
